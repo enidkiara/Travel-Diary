@@ -48,7 +48,16 @@ body {
   .cover-button:hover {
     background-color: #99c2ff;
   }
-  
+
+.github-link {
+  color: black;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
   
   .white {
     background-color: white;
