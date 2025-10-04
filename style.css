@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Patrick Hand', cursive;
+}
+  .cover {
+    position: relative;
+    background-color: #fdf3e7;
+    background-image: url('https://i.pinimg.com/1200x/dc/ea/23/dcea234d377a5483fb443ca7655f6355.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .cover h1 {
+    font-size: 4em;
+    margin: 0;
+    color: #8b3e2f;
+  }
+  
+  .cover p {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #5a2a1c;
+    max-width: 800px;
+  }
+
+  .cover-button {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5em;
+    padding: 15px 30px;
+    background-color: #cce0ff;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .cover-button:hover {
+    background-color: #99c2ff;
+  }
+  
+  
+  .white {
+    background-color: white;
+  border: 10px solid white;
+    border-radius: 25px;
+    padding: 40px 80px;
+    text-align: center;
+    box-shadow: inset 0 0 0 6px black;
+    max-width: 700px;
+    z-index: 1;
+  }
+  
+  .white h1 {
+    margin: 0 0 20px 0;
+    font-size: 5em;
+    color: black;
+  }
+  
+  .white p {
+    font-size: 1.5em;
+    line-height: 1.6;
+    color: black;
+    margin-bottom: 30px;
+  }
+  
+  .random {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sticker {
+    position: absolute;
+    width: 300px;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.sticker.ny    { top: 30px; left: 40px;    --orig-rotation: -8deg;  transform: rotate(var(--orig-rotation)); }
+.sticker.pass  { top: 180px; right: 80px;  --orig-rotation: 6deg;   transform: rotate(var(--orig-rotation)); }
+.sticker.jp    { bottom: 120px; left: 140px; --orig-rotation: -12deg; transform: rotate(var(--orig-rotation)); }
+.sticker.mx    { bottom: 40px; right: 160px; --orig-rotation: 8deg;   transform: rotate(var(--orig-rotation)); }
+.sticker.port  { bottom: 40px; left: 700px;  --orig-rotation: 10deg;  transform: rotate(var(--orig-rotation)); }
+.sticker.fly   { top: 50px; right: 600px;  --orig-rotation: -5deg;  transform: rotate(var(--orig-rotation)); }
+
+  .sticker:hover {
+    transform: scale(1.1) rotate(var(--orig-rotation));
+} 
+
+
+
+  img {
+    width: 300px;
+  }
