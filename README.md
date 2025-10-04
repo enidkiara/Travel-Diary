@@ -1,1 +1,2 @@
 # Travel-Diary
+This website is an interactive travel diary that showcases my favorite trips around the world. Users can explore different destinations, view photos, and read about my experiences in each place. All images are interactive and respond when hovered over, and navigation is simple with "Previous Page" and "Next Page" buttons. The design is meant to look like a notebook, giving the site a unique and visually engaging look while sharing my travel adventures.
